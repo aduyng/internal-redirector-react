@@ -1,0 +1,13 @@
+doctype html
+
+html
+  head
+    meta(charset='UTF-8')
+    meta(name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no")
+    title Redux TodoMVC Example (Window)
+    link(rel="stylesheet" href="./roboto.css")
+  body
+    #root
+    if env !== 'prod'
+      script(src='chrome-extension://kffboknmkflokbgmgaglcnbebcfgpafh/js/redux-devtools-extension.js')
+    script(src=env == 'prod' ? '/js/app.bundle.js' : 'http://localhost:9999/js/app.bundle.js')

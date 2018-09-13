@@ -1,5 +1,10 @@
 import { bindActionCreators } from 'redux';
 import addNewProfile from '../../actions/addNewProfile';
-import cancelLogin from '../../actions/cancelLogin';
+import toggleProfile from '../../actions/toggleProfile';
+import deleteProfile from '../../actions/deleteProfile';
 
-export default dispatch => bindActionCreators({ addNewProfile, cancelLogin }, dispatch);
+export default dispatch => bindActionCreators({
+  addNewProfile,
+  toggleProfile,
+  deleteProfile
+}, dispatch);

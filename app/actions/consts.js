@@ -1,1 +1,3 @@
 export const ADD_NEW_PROFILE = 'ADD_NEW_PROFILE';
+export const TOGGLE_PROFILE = 'TOGGLE_PROFILE';
+export const DELETE_PROFILE = 'DELETE_PROFILE';

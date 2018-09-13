@@ -7,8 +7,10 @@ export default () => async (dispatch) => {
     name: 'New Profile'
   };
 
-  return dispatch({
+  dispatch({
     type: ADD_NEW_PROFILE,
     payload: profile
   });
+
+  return profile;
 };

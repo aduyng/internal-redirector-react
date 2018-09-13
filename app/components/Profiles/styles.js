@@ -13,4 +13,13 @@ export default theme => ({
   column: {
     flexBasis: '33.33%',
   },
+  footerButtons: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    flexWrap: 'wrap'
+  },
+  rightButtonGroup: {
+    flex: 1,
+    justifyContent: 'flex-end'
+  }
 });

@@ -1,6 +1,5 @@
 export default theme => ({
   root: {
-    width: '100%',
     padding: theme.spacing.unit * 3
   },
   heading: {
@@ -13,13 +12,11 @@ export default theme => ({
   column: {
     flexBasis: '33.33%',
   },
-  footerButtons: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    flexWrap: 'wrap'
-  },
-  rightButtonGroup: {
-    flex: 1,
-    justifyContent: 'flex-end'
-  }
+  // footerButtons: {
+  //   justifyContent: 'space-between',
+  //   display: 'flex'
+  // },
+  // rightButtonGroup: {
+  //   marginLeft: 'auto'
+  // }
 });
